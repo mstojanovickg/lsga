@@ -1,36 +1,12 @@
 ====
-GAFT
+LSGA
 ====
 
-A **G**\ enetic **A**\ lgorithm **F**\ ramework in py\ **T**\ hon
-
-.. image:: https://travis-ci.org/PytLab/gaft.svg?branch=master
-    :target: https://travis-ci.org/PytLab/gaft
-    :alt: Build Status
-
-.. image:: https://img.shields.io/codecov/c/github/PytLab/gaft/master.svg
-    :target: https://codecov.io/gh/PytLab/gaft
-    :alt: Codecov
-
-.. image:: https://landscape.io/github/PytLab/gaft/master/landscape.svg?style=flat
-    :target: https://landscape.io/github/PytLab/gaft/master
-    :alt: Code Health
-
-.. image:: https://img.shields.io/badge/python-3.5-green.svg
-    :target: https://www.python.org/downloads/release/python-351/
-    :alt: platform
-
-.. image:: https://img.shields.io/badge/pypi-v0.5.7-blue.svg
-    :target: https://pypi.python.org/pypi/gaft/
-    :alt: versions
-
-.. image:: https://readthedocs.org/projects/gaft/badge/?version=latest
-    :target: https://gaft.readthedocs.io/en/latest/?badge=latest
-    :alt: Documentation Status
-
+**LSGA** is Genetic Algorithm Framework in python based on `GAFT <https://github.com/PytLab/gaft>`_
 
 Introduction
 ------------
+
 
 **GAFT** is a general Python Framework for genetic algorithm computation. It provides built-in genetic operators for target optimization and plugin interfaces for users to define your own genetic operators and on-the-fly analysis for algorithm testing.
 

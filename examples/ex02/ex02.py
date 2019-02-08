@@ -7,16 +7,16 @@ Find the global maximum for binary function: f(x) = y*sim(2*pi*x) + x*cos(2*pi*y
 
 from math import sin, cos, pi
 
-from gaft import GAEngine
-from gaft.components import BinaryIndividual
-from gaft.components import Population
-from gaft.operators import TournamentSelection
-from gaft.operators import UniformCrossover
-from gaft.operators import FlipBitBigMutation
+from lsga import GAEngine
+from lsga.components import BinaryIndividual
+from lsga.components import Population
+from lsga.operators import TournamentSelection
+from lsga.operators import UniformCrossover
+from lsga.operators import FlipBitBigMutation
 
 # Built-in best fitness analysis.
-from gaft.analysis.fitness_store import FitnessStore
-from gaft.analysis.console_output import ConsoleOutput
+from lsga.analysis.fitness_store import FitnessStore
+from lsga.analysis.console_output import ConsoleOutput
 
 # Define population.
 indv_template = BinaryIndividual(ranges=[(-2, 2), (-2, 2)], eps=0.001)
